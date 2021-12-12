@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+
+    }
+    
+    nav{
+        height: 80px;
+        width: 100%;
+    }
+    .mother{
+        color: white;
+        font-size: 30px;
+        line-height: 80px;
+        padding: 0 50px;
+        font-weight: bold;
+    }
+    
+    nav ul {
+    
+    float: right;
+    margin-right: 20px;
+    
+    
+    }
+    
+    nav ul li {
+        display:  inline-block;
+        line-height: 80px;
+        margin: 0 5 px;
+    }
+
+
+    .product,.proli{
+        display:  inline-block;
+    
+    }
+
+    .imgprod{
+        width: 230px;
+        height: 240px;
+        border-radius: 300px;
+        margin-top: 40px;
+    }
+    .imgprod2{
+        width: 680px;
+        height: 600px;
+        margin-top: -120px;
+   
+    }
+
+
+    nav ul li a {
+        color: white;
+        font: 17px;
+        padding: 7px 13px;
+        border-radius: 3px;
+    }
+    
+    a.Active,a:hover {
+    background: tan;
+    transition: .5s;
+    }
+      
+    body{
+        background-color: palevioletred;
+    }
+
+    .div{
+        margin-top: 150px;
+        margin-left: 50px;
+        opacity: .8;
+        z-index: -1;
+        background: hsla(0,0%,100%,.75);
+        width: 60%;
+        height: 200%;
+        backdrop-filter: blur(100px);
+        border-radius: 10px;
+        
+    }
+    h2{
+        font-size:40px;
+        text-align: center;
+
+    }
+    .cookies{
+        font-size: 30px;
+        text-align: center;
+
+    }
+
+    .our{
+        font-size: 30px;
+        color: white;
+    }
+
+    .prod{
+        color: white;
+    }
+
+    .opt{
+        font-size: 30px;
+        color: white;
+  
+    }
+    .del{
+        text-align: left;
+        color: white;
+        margin-top: 300px;
+    }
+    .opt2{
+        font-size: 30px;
+        color: white;
+        margin-top: 120px;
+  
+    }
+    .del2{
+        text-align: left;
+        color: white;
+        margin-top: 300px;
+        font-size: 60px;
+      
+    }
